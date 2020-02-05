@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="55.141896">
+<testcase classname="open home page and upload file" name="SignIn with valid details" time="30.429041">
+<system-out><![CDATA[Given Open home page "<browser>"............................................passed
+When enter url of signup "<url>"............................................passed
+Then signup page open up....................................................passed
+Given click on SignIn button................................................passed
+When enter credentials......................................................passed
+Then Welcome page open up...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="open home page and upload file" name="SignIn with invalid details" time="24.712855">
+<system-out><![CDATA[Given Open home page "<browser>"............................................passed
+When enter url of signup "<url>"............................................passed
+Then signup page open up....................................................passed
+Given click on SignIn button................................................passed
+When enter credentials......................................................passed
+Then error invalid credentials..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

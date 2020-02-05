@@ -1,0 +1,250 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# test upload"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "flow till signup page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11094821200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open home page \"\u003cbrowser\u003e\"",
+            "match": {
+              "location": "HomePage.Open_Home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chrome"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13342945500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter url of signup \"\u003curl\u003e\"",
+            "match": {
+              "location": "HomePage.enter_url(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "http://qa.cockpit.pylot.de/"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55046800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "signup page open up",
+            "match": {
+              "location": "HomePage.test_page_open_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "SignIn with valid details",
+        "description": "",
+        "id": "open-home-page-and-upload-file;signin-with-valid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42024100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click on SignIn button",
+            "match": {
+              "location": "HomePage.click_on_SignIn_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3064262700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter credentials",
+            "match": {
+              "location": "HomePage.enter_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "testfineleap20@yopmail.com",
+                  "Password@123"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2829940900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Welcome page open up",
+            "match": {
+              "location": "HomePage.Welcome_page_open_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "flow till signup page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9838857000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open home page \"\u003cbrowser\u003e\"",
+            "match": {
+              "location": "HomePage.Open_Home_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "chrome"
+                ],
+                "line": 5
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13142048800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter url of signup \"\u003curl\u003e\"",
+            "match": {
+              "location": "HomePage.enter_url(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "http://qa.cockpit.pylot.de/"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104723700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "signup page open up",
+            "match": {
+              "location": "HomePage.test_page_open_up()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "SignIn with invalid details",
+        "description": "",
+        "id": "open-home-page-and-upload-file;signin-with-invalid-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82417900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on SignIn button",
+            "match": {
+              "location": "HomePage.click_on_SignIn_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1459857800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter credentials",
+            "match": {
+              "location": "HomePage.enter_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "testfineleap20@yopmail.com",
+                  "Password@187"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84949500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "error invalid credentials",
+            "match": {
+              "location": "HomePage.error_invalid_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "open home page and upload file",
+    "description": "",
+    "id": "open-home-page-and-upload-file",
+    "keyword": "Feature",
+    "uri": "src/test/java/Fineleap/Automation/Fineleap.feature"
+  }
+]
